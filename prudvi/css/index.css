@@ -1,0 +1,13 @@
+.progress-bar {
+    width: 0;
+    animation: progress-bar-stripes .5s linear infinite;
+} 
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+} 
