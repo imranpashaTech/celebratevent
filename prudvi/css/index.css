@@ -1,13 +1,22 @@
-.progress-bar {
-    width: 0;
-    animation: progress-bar-stripes .5s linear infinite;
+html,body{
+    min-width: 100%;
+    min-width: 100vw;
+    min-height: 100%;
+    min-height: 100vh;
+}
+.header {
+    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/home-banner.jpg') no-repeat;
+    /* background-position: center; */
+    background-size: contain;
 } 
+canvas {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+}
 
-@keyframes progress {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-} 
+
