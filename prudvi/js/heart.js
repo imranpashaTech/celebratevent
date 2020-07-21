@@ -3,13 +3,27 @@ let colors = ['#fadde1', '#ffc4d6', '#ffa6c1', '#ff87ab', '#ff5d8f'];
 
 let a = 0;
 
+// let inconsolata;
+
+// function preload() {
+//   // inconsolata = loadFont('http://fonts.googleapis.com/css?family=Berkshire+Swash');
+// }
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 //   background(30);
+  // textFont("Yesteryear");
+  textFont("Cursive");
+  // textSize(width / 40);
+  textSize(40);
+  fill(200,0,0);
+  textAlign(CENTER, CENTER);
 }
 
 function draw() {
     clear();
+    text('Prudvi   weds   Jhansi', width/2, height/2);
+
   background(10,10,0,0.20);
   translate(width/2, height/2);
 
