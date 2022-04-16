@@ -2,12 +2,154 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Celebratevent </title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script> -->
+
 </head>
-<body>
-    <p>pk</p>
-    <p>prabas</p>
+<body x-data="data()" x-init="init()">
+
+    <div>
+
+    <header>
+        <div class="header w-100">
+            <h2 class="h3 text-center pt-3">Wedding Inivitation</h2>
+            <h2 class="h3 text-center pb-3">*****</h2>
+
+            <div id="canvasHeart" class="px-3"></div>        
+        </div>
+    </header>
+
+    <!-- clock -->
+    <section>
+        </br>
+        <div class="clock d-flex justify-content-center"></div>
+    </section>
+    <section>
+        <div>
+            <p>
+                We are inviting you to celebrate the day when we take our next large step in the relationship. We promise you that the wedding will be magnificent. We would be incredibly grateful if you came to celebrate our love together with us!
+            </p>
+        </div>
+    </section>
+    <section class="container">
+        
+        <div class="row p-5">
+            <div class="col-md-3">
+                <img src="images/home-banner.jpg" class="w-100 rounded-circle mx-auto d-block">
+            </div>
+            <div class="col-md-9">
+                <p>he standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                    for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
+                     et Malorum" by Cicero are also reproduced in their exact original form, 
+                     accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            </div>
+        </div>
+
+    </section>
+    <section  class="container">
+        <div class="row p-5  pt-0">
+            <div class="col-md-9">
+                <p>he standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                    for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
+                     et Malorum" by Cicero are also reproduced in their exact original form, 
+                     accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/home-banner.jpg" class=" w-100 rounded-circle mx-auto d-block">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-md-3"><img src="" alt=""></div>
+            <div class="col-md-9">
+                <p></p>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12 d-flex justify-content-center mb-5">
+        
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">All</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Mountains</button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Sea</button>
+        
+            </div>
+            <!-- Grid column -->
+        
+        </div>
+        <!-- Grid row -->
+        
+        <!-- Grid row -->
+        <div class="gallery" id="gallery">
+        
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->
+        
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->
+        
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->
+        
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->
+        
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->
+        
+            <!-- Grid column -->
+            <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+            </div>
+            <!-- Grid column -->
+        
+        </div>
+        <!-- Grid row -->
+    </section>
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js" defer></script>
+
+    <script src="./js/timer.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/heart.js"></script>
 </body>
 </html>
+
+<!-- https://codepen.io/hans/pen/hanBu -->
+<!-- https://thebrandsmen.com/css-image-hover-effects/ -->
