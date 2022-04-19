@@ -6,7 +6,7 @@ $(document).ready(function () {
 });
 
 // input your custom Date below
-var date = new Date('2022-07-27 22:00:00');
+var date = new Date('2022-04-27 17:00:00');
 
 
 var dif = (date.getTime() / 1000) - ((new Date().getTime())/1000);
@@ -20,3 +20,4 @@ clock.start();
 
 //
 // https://codepen.io/How_to_Code/pen/VwZOZod
+// https://colorhunt.co/palette/1572a19ad0ecefdad7e3bec6

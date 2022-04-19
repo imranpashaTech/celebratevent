@@ -11,7 +11,7 @@ let a = 0;
 
 function setup() {
   // createCanvas(windowWidth-30, windowHeight/2);
-  let myCanvas = createCanvas(windowWidth-30, windowHeight*0.65);
+  let myCanvas = createCanvas(windowWidth-30, windowHeight*0.70);
     myCanvas.parent("canvasHeart");
 //   background(30);
   // textFont("Yesteryear");
@@ -19,15 +19,15 @@ function setup() {
   // textSize(width / 40);
   textSize((windowHeight/windowWidth)*18);
   fill(255, 165, 0);
-  textAlign(CENTER, CENTER);
+  textAlign(CENTER, RIGHT);
 }
 
 function draw() {
     clear();
-    text('Sunil\n  weds\n Xxyyz', width/2, height/2);
+    text('Sunil\n  weds\n Anusha', width/2, height/2);
 
   background(224,224,224,0.20);
-  translate(width/2, height/2);
+  translate(width/2, height/2+30);
 
   let r = 6;
   let x = r * 16 * pow(sin(a), 3);

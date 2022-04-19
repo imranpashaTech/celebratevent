@@ -10,18 +10,61 @@ html,body{
     font-family: 'Cedarville Cursive';
 }
 
+.font-cc {
+    font-family:  'Cedarville Cursive';
+}
+
 .h3 {
     font-family:  'Cedarville Cursive';
     color: rgb(255, 165, 0);
 }
 
-.h3::after{
-    border-bottom: 1px dashed red;
+h4 {
+    font-family:  'Cedarville Cursive';
+    color: #9AD0EC;
 }
+
+.litpinkbg {
+    font-family:  'Cedarville Cursive';
+    background: #E3BEC6;
+}
+
+.lityelbg {
+    font-family:  'Cedarville Cursive';
+    background: #EFDAD7;
+}
+
+.litbluebg{
+    background: #9AD0EC;
+}
+
+.darkbluebg{
+    background-color: #1572A1;
+}
+
+.fdarkblue{
+    color: #1572A1;
+}
+
+.fcolor {
+    color: #E3BEC6;
+}
+
+.cpl-img{
+    background-image: url("../images/cp2.jpg");
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+
 .header {
     width: 100%;
     width: 100vw;
-    height: 75vh;
+    height: 70vh;
     /* background: url('../images/home-banner.jpg') no-repeat; */
     /* background-position: center; */
     background-size: contain;
@@ -35,8 +78,16 @@ canvas {
 }
 
 .flip-clock-wrapper ul li a div div.inn {
-    font-size: 30px;
+    font-size: 20px;
 }
+
+.flip-clock-wrapper ul{
+    margin: 2px;
+}
+.flip-clock-wrapper{
+    margin: 0px;
+}
+
 .gallery {
     -webkit-column-count: 3;
     -moz-column-count: 3;
