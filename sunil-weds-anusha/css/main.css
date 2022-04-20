@@ -3,15 +3,17 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("../images/home-img.jpg") no-repeat center center;
+  background:linear-gradient(7deg, #0000007d 100%,rgba(0,0,0,0.3) 50%,#000),  url(../images/couple.JPG) no-repeat center center;
   background-size: cover;
   background-position: 70%;
+  background-position: 0px -337px;
   height: 100vh;
   min-height: 480px;
   max-height: 1080px; }
   .ww-home-page .ww-wedding-announcement {
     width: 100%;
     max-width: 1600px;
+    
     margin: 0 auto;
     height: 100%;
     color: #fff;
@@ -33,7 +35,7 @@ body {
       font-size: 70px; }
       @media (max-width: 576px) {
         .ww-home-page .ww-wedding-announcement .ww-couple-name {
-          font-size: 50px; } }
+          font-size: 40px; } }
 
 .ww-home-page:before {
   content: "";
@@ -180,3 +182,21 @@ body {
 
 .btn-outline-primary:hover {
   color: #fff; }
+  @media only screen and (max-width: 600px) {
+    .ww-home-page{
+      background-position: center;
+    }
+    .iframe{
+      width: 100% !important;
+    }
+    .ww-home-page .ww-wedding-announcement .ww-announcement-container{
+      height: 100%;
+    }
+    .ww-home-page .ww-wedding-announcement img{
+      width: 50% !important;
+    }
+    .he_50{
+      margin-top: 200px !important;
+    }
+  
+  }
